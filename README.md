@@ -1,20 +1,22 @@
-# Projects
-Password Validator
+
+#Password Validator
 This is a simple password validator that checks if a password meets certain requirements. It checks for the following:
 
--->Password length of at least 8 characters
-1. At least one lowercase letter
-2. At least one uppercase letter
-3. At least one number
-4. At least one special character
--->Technologies Used
-1. HTML
-2. CSS
-3. JavaScript
--->How to Use
-Enter a password in the input field provided.
-The password requirements will be displayed below the input field.
-The requirements that are met will have a green check mark, while the requirements that are not met will have a red x-mark.
+1. Password length of at least 8 characters
+● At least one lowercase letter
+● At least one uppercase letter
+● At least one number
+● At least one special character
+
+2. Technologies Used
+● HTML
+● CSS
+● JavaScript
+
+3. How to Use
+● Enter a password in the input field provided.
+● The password requirements will be displayed below the input field.
+● The requirements that are met will have a green check mark, while the requirements that are not met will have a red x-mark.
 Screenshots
 Screenshot
 
