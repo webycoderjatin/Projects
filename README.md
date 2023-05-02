@@ -18,18 +18,18 @@ This is a simple password validator that checks if a password meets certain requ
 3. The requirements that are met will have a green check mark, while the requirements that are not met will have a red x-mark.
 
 * ### Screenshots
-![photo](C:\Users\jotin\OneDrive\Desktop\Youtube\passwd.png)
+![photo](passwd.png)
 
 
-How to Contribute
+* ### How to Contribute
 If you want to contribute to this project, please follow these steps:
 
-Fork this repository.
-Create a new branch (git checkout -b new-feature).
-Add your changes and commit them (git commit -m "add feature").
-Push to the branch (git push origin new-feature).
-Create a pull request.
-Credits
-Font Awesome (https://fontawesome.com/) - for the check mark and x-mark icons.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+1. Fork this repository.
+2. Create a new branch (git checkout -b new-feature).
+3. Add your changes and commit them (git commit -m "add feature").
+4. Push to the branch (git push origin new-feature).
+5. Create a pull request.
+
+* ### Credits
+Font Awesome [Got to Site](https://fontawesome.com/) - for the check mark and x-mark icons.
+
