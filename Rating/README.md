@@ -19,3 +19,4 @@ To get started with the project, simply clone the repository to your local machi
 To use the rating system, simply hover over one of the stars to highlight it, then click on the highlighted star to select your rating. You can change your rating by hovering over a different star and clicking on it.
 
 ## Screenshots
+![screenshot](Screenshot.png)
