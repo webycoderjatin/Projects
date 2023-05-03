@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: dodgerblue;
+}
+#container{
+    height: 50vh;
+    width: 70vh;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 1);
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+
+}
+
+#container .emoji{
+    display: inline-block;
+    margin: 40px 20px;
+}
+#container .rate{
+    display: inline-block;
+    margin: 0px;  
+}
+button{
+    
+    background-color:transparent;
+    width: 80px;
+    font-size: 53px;
+    border: none;
+    outline: none;
+   margin: -2px;
+    color: rgba(128, 128, 128, 0.735);
+   
+}
+.fa-solid{
+    
+    color: #ffca28;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="container">
+        <div class="emoji"><img src="star1.png" alt="star1" height="100rem" id="image"></div><br>
+        <div class="rate">
+            <button onmouseover="a(1)" onmouseout="b(1)"><i class="fa-regular fa-star" id="1" ></button></i>
+            <button onmouseover="a(2)" onmouseout="b(2)"><i class="fa-regular fa-star" id="2" ></i></button>
+            <button onmouseover="a(3)" onmouseout="b(3)"><i class="fa-regular fa-star" id="3" ></i></button>
+            <button onmouseover="a(4)" onmouseout="b(4)"><i class="fa-regular fa-star" id="4" ></i></button>
+            <button onmouseover="a(5)" onmouseout="b(5)"><i class="fa-regular fa-star" id="5" ></i></button>
+        </div>
+    </div>
+    <script>
+        function a(rate){
+            if(rate==1){
+                document.getElementById(rate).classList.remove("fa-regular");
+                document.getElementById(rate).classList.add("fa-solid");
+                document.getElementById("image").src="star"+rate+".png";
+            }
+            else if(rate==2){
+                document.getElementById(1).classList.remove("fa-regular");
+                document.getElementById(1).classList.add("fa-solid");
+                document.getElementById(rate).classList.remove("fa-regular");
+                document.getElementById(rate).classList.add("fa-solid");
+                document.getElementById("image").src="star"+rate+".png";
+            }
+            else  if(rate==3){
+                document.getElementById(1).classList.remove("fa-regular");
+                document.getElementById(1).classList.add("fa-solid");
+                document.getElementById(2).classList.remove("fa-regular");
+                document.getElementById(2).classList.add("fa-solid");
+                document.getElementById(rate).classList.remove("fa-regular");
+                document.getElementById(rate).classList.add("fa-solid");
+                document.getElementById("image").src="star"+rate+".png";
+            }
+            else  if(rate==4){
+                document.getElementById(1).classList.remove("fa-regular");
+                document.getElementById(1).classList.add("fa-solid");
+                document.getElementById(2).classList.remove("fa-regular");
+                document.getElementById(2).classList.add("fa-solid");
+                document.getElementById(3).classList.remove("fa-regular");
+                document.getElementById(3).classList.add("fa-solid");
+                document.getElementById(rate).classList.remove("fa-regular");
+                document.getElementById(rate).classList.add("fa-solid");
+                document.getElementById("image").src="star"+rate+".png";
+            }
+            else  if(rate==5){
+                document.getElementById(1).classList.remove("fa-regular");
+                document.getElementById(1).classList.add("fa-solid");
+                document.getElementById(2).classList.remove("fa-regular");
+                document.getElementById(2).classList.add("fa-solid");
+                document.getElementById(3).classList.remove("fa-regular");
+                document.getElementById(3).classList.add("fa-solid");
+                document.getElementById(4).classList.remove("fa-regular");
+                document.getElementById(4).classList.add("fa-solid");
+                document.getElementById(rate).classList.remove("fa-regular");
+                document.getElementById(rate).classList.add("fa-solid");
+                document.getElementById("image").src="star"+rate+".png";
+                
+            }
+            
+        }
+        function b(rate){
+            if(rate==1){
+                document.getElementById(rate).classList.add("fa-regular");
+                document.getElementById(rate).classList.remove("fa-solid");}
+            else if(rate==2){
+                document.getElementById(1).classList.add("fa-regular");
+                document.getElementById(1).classList.remove("fa-solid");
+                document.getElementById(rate).classList.add("fa-regular");
+                document.getElementById(rate).classList.remove("fa-solid");}
+            else  if(rate==3){
+                document.getElementById(1).classList.add("fa-regular");
+                document.getElementById(1).classList.remove("fa-solid");
+                document.getElementById(2).classList.add("fa-regular");
+                document.getElementById(2).classList.remove("fa-solid");
+                document.getElementById(rate).classList.add("fa-regular");
+                document.getElementById(rate).classList.remove("fa-solid");}
+            else  if(rate==4){
+                document.getElementById(1).classList.add("fa-regular");
+                document.getElementById(1).classList.remove("fa-solid");
+                document.getElementById(2).classList.add("fa-regular");
+                document.getElementById(2).classList.remove("fa-solid");
+                document.getElementById(3).classList.add("fa-regular");
+                document.getElementById(3).classList.remove("fa-solid");
+                document.getElementById(rate).classList.add("fa-regular");
+                document.getElementById(rate).classList.remove("fa-solid");}
+            else  if(rate==5){
+                document.getElementById(1).classList.add("fa-regular");
+                document.getElementById(1).classList.remove("fa-solid");
+                document.getElementById(2).classList.add("fa-regular");
+                document.getElementById(2).classList.remove("fa-solid");
+                document.getElementById(3).classList.add("fa-regular");
+                document.getElementById(3).classList.remove("fa-solid");
+                document.getElementById(4).classList.add("fa-regular");
+                document.getElementById(4).classList.remove("fa-solid");
+                document.getElementById(rate).classList.add("fa-regular");
+                document.getElementById(rate).classList.remove("fa-solid");}
+            
+        }
+       
+         
+    </script>
+</body>
+
+</html>
